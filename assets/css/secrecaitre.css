@@ -1,0 +1,111 @@
+.user_name{
+
+    background-color: #29313C !important;
+    height: 80px;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+.user_name span{
+    margin: 0 10px;
+}
+.servive_job{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.servive_job .box
+{
+    width: 18%;
+    height: 110px;
+    background-color: #29313C;
+    display: block;
+    text-align: center;
+   padding: 20px 0;
+   border-radius: 20px;
+   color: #fff;
+   font-size: 24px;
+   margin: 0 40px;
+   cursor: pointer;
+   box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0,0, 0.05),
+  100px 100px 80px rgba(0,0, 0, 0.07);
+}
+.show_data{
+    width: 100%;
+}
+.equipment,
+.equipmentTable,
+.personalTable,
+.maladeTable,
+.produitTable,
+.instrumentTable,
+.show_data .personal,
+.show_data .malade,
+.show_data .Produit,
+.show_data .instrument{
+    display: none ;
+    
+}
+
+
+.responsive-table li {
+    border-radius: 3px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  .responsive-table .table-header {
+    background-color: #95A5A6;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .responsive-table .table-row {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+  }
+  .responsive-table .col-1 {
+    flex-basis: 10%;
+  }
+  .responsive-table .col-2 {
+    flex-basis: 40%;
+  }
+  .responsive-table .col-3 {
+    flex-basis: 25%;
+  }
+  .responsive-table .col-4 {
+    flex-basis:10%;
+  }
+  @media all and (max-width: 767px) {
+    .responsive-table .table-header {
+      display: none;
+    }
+    .responsive-table li {
+      display: block;
+    }
+    .responsive-table .col {
+      flex-basis: 100%;
+    }
+    .responsive-table .col {
+      display: flex;
+      padding: 10px 0;
+    }
+    .responsive-table .col:before {
+      color: #6C7A89;
+      padding-right: 10px;
+      content: attr(data-label);
+      flex-basis: 50%;
+      text-align: right;
+    }
+  }
