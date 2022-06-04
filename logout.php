@@ -1,0 +1,8 @@
+<?php
+session_start();
+session_destroy();
+header("location:index.php");
+?>
+
+
+:symetrique,:asymetrique,:respecte,:etage_nasal_augmante,:etage_inferieur_augmante,:ena_diminue,:eia_diminue,:harmonieux,:dyharmonieux,:orthofrontal,:cisfrontal,:transfrontal,:presence_stomion,:absence_stomion,:jointive_sans_contraction-apparente,:rapport_anormal,:droit,:devie,:bruit_douleurs_articulaires,:circonscrite,:anterieurer,:lateraler,:totaler,:circonscritef,:anterieuref,:lateralef,:totalef,:aucune_anomalie_visible,:decrire_anomalie,:orifices_narinaires_arrondies,:retrecit_unilaterald,:retrecit_unilateraleg,:retrecissement_symetrique,:unilaterale_alternee,:unilaterale_dominante,:masseterine,:temporale,:les_palatales_normales,:anomaliep,:sibilantes_normales,:anomalies,:chuintantes_normales,:anomaliec,:fricatives_normales,:anomalief,:succion_digitale,:tetee,:bruxisme,:obnormal,:ob_augmante,:ob_diminue,:oj_normal,:oj_augmante,:oj_diminue,:media_incisif_respecte,:exp,:non_respecte,:exp1,:occlusion_molaire,:exp2,:bout_a_bout,:exp3,:occlusion_inverse,:exp4,:cl_l_symetrique,:cl_l_asymetrique,:cl_ll_symetrique,:cl_ll_asymetrique,:cl_Ill_symetrique,:cl_lll_asymetriquec,:cl_ll_symetriquem,:cl_ll_asymetriquem,:cl_lll_symetriquem,:cl_lll_asymetriquem,:cl_l_symetriquec,:cl_l_asymetriquec,:cl_ll_symetriquec,:cl_ll_asymetriquec,:cl_lll_symetriquec,:cl_lll_asymetrique,:cl_l_symetriquem,:cl_l_asymetriquem,:interferenced,:protrusion_respecte,:non_respectee,:expp,:canine,:antero_lateraled,:grouped,:antero_lateraleg,:groupeg,:interferenceg,:idm
